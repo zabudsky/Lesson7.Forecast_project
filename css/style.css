@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: all .4s linear;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #3399cc;
+  border: 25px solid #2b81ac;
+  height: 100vh;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.header {
+  color: #fff;
+  font-size: 22px;
+  padding-left: 440px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.section {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+}
+
+ul {
+  height: 25%;
+  box-sizing: border-box;
+  font-size: 0;
+  list-style-type: none;
+}
+li {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+li.lisbon {
+  width: 50%;
+  line-height: 145px;
+  border: #fff 5px solid;
+  background-color: #3399cc;
+}
+li.paris,
+li.belgrade {
+  width: 25%;
+  border: 5px solid white;
+  line-height: 145px;
+  border-left: 0;
+}
+li.moscow,
+li.tel_aviv,
+li.cair,
+li.new_york {
+  width: 25%;
+  line-height: 145px;
+  border: #fff 5px solid;
+  border-left: 0;
+}
+li.new_delhi,
+li.san_francisco,
+li.tokyo {
+  width: 33.333333333333333%;
+  line-height: 145px;
+  border: #fff 5px solid;
+}
+
+li.sydney {
+  width: 100%;
+  line-height: 145px;
+  border: #fff 5px solid;
+  background-color: #666699;
+}
+
+li.moscow {
+  border-left: #fff 5px solid;
+  background-color: #c24747;
+}
+
+li.san_francisco,
+li.tokyo {
+  border-left: 0;
+}
+
+li.paris {
+  background-color: #33cccc;
+}
+li.belgrade {
+  background-color: #996699;
+}
+li.tel_aviv {
+  background-color: #e2674a;
+}
+
+li.cair {
+  background-color: #ffcc66;
+}
+
+li.new_york {
+  background-color: #99cc99;
+}
+
+li.new_delhi {
+  background-color: #669999;
+}
+
+li.san_francisco {
+  background-color: #cc6699;
+}
+
+li.tokyo {
+  background-color: #339966;
+}
+
+.wi {
+  padding: 10px;
+}
+.footer {
+  color: #fff;
+  font-size: 22px;
+  padding-left: 440px;
+  padding-top: 30px;
+}
+
+
+li.sydney:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.lisbon:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.paris:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.belgrade:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.moscow:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.tel_aviv:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.cair:hover{
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.new_delhi:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.san_francisco:hover{
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.tokyo:hover{
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
+li.new_york:hover{
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+  box-shadow: inset 0 0 0 3px #6b4ca3;
+}
